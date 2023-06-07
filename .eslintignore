@@ -1,0 +1,4 @@
+*.d.ts
+jsonp.js
+dist/
+node_modules/

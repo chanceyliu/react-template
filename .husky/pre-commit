@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 这一行需手动配置，意思在 git commit 钩子中执行的命令
+# 先执行lint-staged的检测，在检测ts
+npx lint-staged && npx tsc --noEmit

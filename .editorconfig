@@ -1,0 +1,12 @@
+root = true
+
+[*]
+# 去除多余空格
+trim_trailing_whitespace = true
+# 在尾部插入一行
+insert_final_newline = true
+# 换行符
+end_of_line = lf
+
+[*.md]
+trim_trailing_whitespace = false

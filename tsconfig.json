@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5" /* 编译成哪个版本的 es: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */,
+    "module": "commonjs" /* 指定生成哪个模块系统代码: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+    "jsx": "react-jsx" /* 指定 JSX 代码生成: 'preserve', 'react-native', or 'react'. */,
+
+    /* Strict Type-Checking Options */
+    "strict": true /* 启用所有严格类型检查选项. */,
+
+    /* Additional Checks */
+    "noUnusedLocals": true /* 未使用局部变量报错. */,
+
+    /* Module Resolution Options */
+    "baseUrl": "./" /* 解析非绝对模块名称的基目录. */,
+    "paths": {
+      "@/*": ["./src/*"]
+    } /* 将导入重新映射到相对于“baseUrl”的查找位置的条目. */,
+    "esModuleInterop": true /* 允许编译生成文件时，在代码中注入工具类(__importDefault、__importStar)对ESM与commonjs混用情况做兼容处理 */,
+
+    /* Source Map Options */
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
